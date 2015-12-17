@@ -2,6 +2,8 @@
 
 An application using Apache Cordova, Ionic Framework, and Typescript. Currently supporting iOS and Android.
 
+This example demos my adaptation of [phonegap's barcode scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner) paired with [TheLevelUp's](https://github.com/TheLevelUp/ZXingObjC) objective-c port of the [ZXing](https://github.com/zxing/zxing) library.
+
 ## Requirements
  1. [node.js](https://nodejs.org/)
  2. Cordova and Ionic - ```$ [sudo] npm install -g cordova ionic```
