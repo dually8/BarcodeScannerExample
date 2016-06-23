@@ -13,6 +13,7 @@ var paths = {
 };
 
 gulp.task('default', ['sass','tsc']);
+gulp.task('serve:before', ['watch']);
 
 gulp.task('sass', function(done) {
   gulp.src('./scss/ionic.app.scss')
@@ -97,4 +98,8 @@ gulp.task('emulate-iPhone6Plus', ['sass', 'tsc'],function(){
 
 gulp.task('emulate-iPhone4s', ['sass', 'tsc'],function(){
     sh.exec("ionic emulate ios --target='iPhone-4s'");
+});
+
+gulp.task('openXcode', ['build-ios'],function(){
+    sh.exec("open ./platforms/ios/*.xcodeproj");
 });

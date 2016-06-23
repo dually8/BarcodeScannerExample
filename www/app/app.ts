@@ -5,7 +5,6 @@ module app {
     "use strict";
     angular.module("starter", ["ionic","ngCordova"])
         .controller("DashCtrl", app.controllers.DashCtrl)
-        .service("ScanditService", app.services.ScanditService)
         .run(function($ionicPlatform) {
             $ionicPlatform.ready(function() {
                 // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard

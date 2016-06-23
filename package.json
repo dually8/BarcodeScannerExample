@@ -1,5 +1,5 @@
 {
-  "name": "Barcode Scanner Example",
+  "name": "Barcode-Scanner-Example",
   "version": "1.0.0",
   "description": "This uses my adaptation of phonegap's plugin",
   "repository": {
@@ -20,7 +20,7 @@
     "shelljs": "^0.5.3"
   },
   "cordovaPlugins": [
-    "com.ionic.keyboard",
+    "ionic-plugin-keyboard",
     "cordova-plugin-console",
     "cordova-plugin-device",
     "cordova-plugin-dialogs",
